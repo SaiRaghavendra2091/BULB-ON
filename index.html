@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>BulbLighton</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="A1">
+        <div class="squareBox">
+            <img class="image" id="myImage" onclick="changeImage()" src="https://www.w3schools.com/js/pic_bulboff.gif">
+
+            <p>Click the light bulb to<br> turn on/off the light.</p>
+        </div>
+        <div class="squareBox">
+            <img class="image" id="myimage1" src="https://www.w3schools.com/js/pic_bulboff.gif">
+
+            <button class="button"
+                onclick="document.getElementById('myimage1').src='https://www.w3schools.com/js/pic_bulbon.gif'">Turn
+                On
+                Light</button>
+
+            <button class="buttn"
+                onclick="document.getElementById('myimage1').src= 'https://www.w3schools.com/js/pic_bulboff.gif'">Turn
+                Off Light</button>
+        </div>
+        <div class="squareBox">
+
+            <img class="image" id="myimage2" src="https://www.w3schools.com/js/pic_bulboff.gif">
+
+            <button class="button" onclick="TurnOnOff()">Turn ON/OFF</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
